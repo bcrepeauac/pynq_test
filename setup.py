@@ -26,6 +26,8 @@ def copy_overlays():
     dst_ol_dir = os.path.join(ovl_dest, 'bitstream')
     copy_tree(src_ol_dir, dst_ol_dir)
     hw_data_files.extend([os.path.join("..", dst_ol_dir, f) for f in os.listdir(dst_ol_dir)])
+    print(f'Source: {src_ol_dir}')
+    print(f'Destination: {dst_ol_dir}
 
 
 # copy notebooks to jupyter home
@@ -43,7 +45,7 @@ copy_notebooks()
 
 setup(
 	name= "pynq_test",
-	version= "1.2",
+	version= "1.3",
 	url= 'https://github.com/bcrepeauac/pynq_test.git',
 	license = 'Apache Software License',
 	author= "Brian Crepeau",
