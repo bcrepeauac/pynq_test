@@ -27,7 +27,7 @@ def copy_overlays():
     copy_tree(src_ol_dir, dst_ol_dir)
     hw_data_files.extend([os.path.join("..", dst_ol_dir, f) for f in os.listdir(dst_ol_dir)])
     print(f'Source: {src_ol_dir}')
-    print(f'Destination: {dst_ol_dir})
+    print(f'Destination: {dst_ol_dir}')
 
 
 # copy notebooks to jupyter home
