@@ -45,7 +45,7 @@ copy_notebooks()
 
 setup(
 	name= "pynq_test",
-	version= "1.31",
+	version= "1.32",
 	url= 'https://github.com/bcrepeauac/pynq_test.git',
 	license = 'Apache Software License',
 	author= "Brian Crepeau",
