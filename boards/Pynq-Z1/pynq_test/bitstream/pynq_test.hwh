@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Dec 12 10:54:17 2022" VIVADOVERSION="2021.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Dec 12 14:36:22 2022" VIVADOVERSION="2021.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="www.digilentinc.com:pynq-z1:part0:1.0" DEVICE="7z020" NAME="Zynq" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -1385,7 +1385,7 @@
         <PARAMETER NAME="C_READ_LATENCY_B" VALUE="1"/>
         <PARAMETER NAME="C_HAS_INJECTERR" VALUE="0"/>
         <PARAMETER NAME="C_SIM_COLLISION_CHECK" VALUE="ALL"/>
-        <PARAMETER NAME="C_COMMON_CLK" VALUE="0"/>
+        <PARAMETER NAME="C_COMMON_CLK" VALUE="1"/>
         <PARAMETER NAME="C_DISABLE_WARN_BHV_COLL" VALUE="0"/>
         <PARAMETER NAME="C_EN_SLEEP_PIN" VALUE="0"/>
         <PARAMETER NAME="C_USE_URAM" VALUE="0"/>
@@ -1422,7 +1422,7 @@
         <PARAMETER NAME="Byte_Size" VALUE="8"/>
         <PARAMETER NAME="Algorithm" VALUE="Minimum_Area"/>
         <PARAMETER NAME="Primitive" VALUE="8kx2"/>
-        <PARAMETER NAME="Assume_Synchronous_Clk" VALUE="false"/>
+        <PARAMETER NAME="Assume_Synchronous_Clk" VALUE="true"/>
         <PARAMETER NAME="Write_Width_A" VALUE="32"/>
         <PARAMETER NAME="Write_Depth_A" VALUE="2048"/>
         <PARAMETER NAME="Read_Width_A" VALUE="32"/>
